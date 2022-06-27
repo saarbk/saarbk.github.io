@@ -6,7 +6,6 @@ Shraing some of projects here
 ### Computational Models
 1 .$$\LaTeX code$$   (for display)
 2. \\[\LaTeX code\\] (also for display)
-3. \\(\LaTeX code\\) (for inline)
 ### $\textbf{Introduction to Machine Learning}$
  
 Sharing notebook and theoretical ideas I came across at Introduction to Machine Learning course.
