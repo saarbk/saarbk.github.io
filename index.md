@@ -5,15 +5,16 @@ First year completed at the Open University of Israel as overseas student.
 Shraing some of projects here
 
 ### Computational Models
-### Introduction to Machine Learning
+### $\textbf{Introduction to Machine Learning}$
 
 
 Sharing notebook and theoretical ideas I came across at Introduction to Machine Learning course.
 Any section including the relevant  PDF soultions, ![equation](https://latex.codecogs.com/svg.image?\text{\TeX})   and py files
 
-## ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5CLARGE%20%5Ctextbf%7BSection%201%7D)
-(Warm-up)
 
+<details><summary>  $\textbf{Section } 1$ </summary>
+<p>
+  
 ![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
 \
   [1.1](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section1.0/section_1.pdf) Linear Algebra
@@ -30,8 +31,13 @@ Any section including the relevant  PDF soultions, ![equation](https://latex.cod
 [Visualizing the Hoeffding bound.](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section1.0/plot1.png)
 [k-NN algorithm.](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section1.0/KNN.py)
 
-## [![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5CLARGE%20%5Ctextbf%7BSection%202%7D)](https://github.com/saarbk/Introduction-to-Machine-Learning/blob/main/EX2/Section_2.pdf)
-![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
+</p>
+</details>
+
+<details><summary>  $\textbf{Section } 2$ </summary>
+<p>
+  
+ ![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
 \
 [2.1](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section2.0/Section2.pdf) PAC learnability of ℓ2-balls around the origin
 \
@@ -53,8 +59,14 @@ We will try to learn using an hypothesis class that consists of k disjoint inter
 define the corresponding hypothesis as  
    
    ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20h_I(x)=%5Cbegin%7Bcases%7D1%20&%5Ctext%7Bif%20%7D%20x%5Cin%20%5Bl_1,u_1%5D%5Ccup%20%5Cdots%20%5Ccup%20%5Bl_k,u_k%5D%20%5C%5C1%20&%5Ctext%7Botherwise%7D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D)
-## ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5CLARGE%20%5Ctextbf%7BSection%203%7D)
-![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
+  
+</p>
+</details>
+
+<details><summary>  $\textbf{Section } 3$ </summary>
+<p>
+ 
+ ![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
 \
 [3.1](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section3.0/section3.pdf) Step-size Perceptron
 \
@@ -78,9 +90,15 @@ read the MNIST data with the provided script, you can download the file from [ H
 In this exercise we will optimize the log loss defined
 as follows:
 
-![equation](https://latex.codecogs.com/svg.image?\ell_{log}(\mathbf{w},x,y)&space;=&space;\log(1&plus;e^{-y\mathbf{w}\cdot&space;x}))
-## ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5CLARGE%20%5Ctextbf%7BSection%204%7D)
-![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
+![equation](https://latex.codecogs.com/svg.image?\ell_{log}(\mathbf{w},x,y)&space;=&space;\log(1&plus;e^{-y\mathbf{w}\cdot&space;x})) 
+  
+</p>
+</details>
+
+<details><summary>  $\textbf{Section } 4$ </summary>
+<p>
+ 
+ ![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
 \
 [4.1](https://github.com/saarbk/Introduction-to-Machine-Learning/tree/master/Section4.0/section_4.pdf) SVM with multiple classes
 \
@@ -110,6 +128,12 @@ Define the log-loss on a single example
 And the loss we want to minimize is
 
 ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5Cell(%5Cmathcal%7BW%7D)=%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi=1%7D%5E%7Bn%7D%5Cell%20(%5Cmathbf%7Bx%7D_i,%5Cmathbf%7By%7D_i)(%5Cmathcal%7BW%7D)=%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi=1%7D%5E%7Bn%7D-%5Cmathbf%7By%7D_i%5Cast%20%5Clog%20%5Cmathbf%7Bz%7D_L(%5Cmathbf%7Bx%7D_i;%5Cmathcal%7BW%7D))
+
+ 
+</p>
+</details>
+
+
 
 
 ## K means
