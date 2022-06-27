@@ -4,6 +4,7 @@ Aviv University.
 First year completed at the Open University of Israel as overseas student. 
 Shraing some of projects here
 
+### Computational Models
 ### Introduction to Machine Learning
 
 
@@ -110,6 +111,16 @@ And the loss we want to minimize is
 
 ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5Cell(%5Cmathcal%7BW%7D)=%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi=1%7D%5E%7Bn%7D%5Cell%20(%5Cmathbf%7Bx%7D_i,%5Cmathbf%7By%7D_i)(%5Cmathcal%7BW%7D)=%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi=1%7D%5E%7Bn%7D-%5Cmathbf%7By%7D_i%5Cast%20%5Clog%20%5Cmathbf%7Bz%7D_L(%5Cmathbf%7Bx%7D_i;%5Cmathcal%7BW%7D))
 
+
+## K means
+The K-means algorithm is a popular clustering method for finding a partition of N 
+unlabeled observations into K distinct clusters, where K is a parameter of the method.
+we willimplement this algorithm in both Python and C. 
+
+Given a set of ![equation](https://latex.codecogs.com/svg.image?\mathbb{N}) datapoints such that ![equation](https://latex.codecogs.com/svg.image?x_1,x_2\dots&space;x_n&space;\in&space;\mathbb{R}^d). the goal is to group the data into ![equation](https://latex.codecogs.com/svg.image?k\in&space;\mathbb{N}) clusters,
+each datapoint is assigned to exactly one cluster and the number of clusters ![equation](https://latex.codecogs.com/svg.image?k) is such that ![equation](https://latex.codecogs.com/svg.image?1<k<n).
+We will denote the group of clusters by ![equation](https://latex.codecogs.com/svg.image?S_1,&space;S_2,&space;\dots&space;,&space;S_k), each cluster ![equation](https://latex.codecogs.com/svg.image?S_j)  is represented by it’s centroid
+which is the mean ![equation](https://latex.codecogs.com/svg.image?\mu_j&space;\in&space;\mathbb{R}^d) of the cluster’s members.
 ```markdown
 Syntax highlighted code block
 
