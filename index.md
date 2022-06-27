@@ -6,10 +6,6 @@ Shraing some of projects here
 
 ### Computational Models
 ### $\textbf{Introduction to Machine Learning}$
-
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
  
 Sharing notebook and theoretical ideas I came across at Introduction to Machine Learning course.
 Any section including the relevant  PDF soultions, ![equation](https://latex.codecogs.com/svg.image?\text{\TeX})   and py files
