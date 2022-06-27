@@ -15,7 +15,7 @@ Sharing notebook and theoretical ideas I came across at Introduction to Machine 
 Any section including the relevant  PDF soultions, ![equation](https://latex.codecogs.com/svg.image?\text{\TeX})   and py files
 
 
-<details><summary>  $\textbf{Section } 1$ </summary>
+<details><summary> ![equation](https://latex.codecogs.com/svg.image?%5Cinline%20%5CLARGE%20%5Ctextbf%7BSection%201%7D) </summary>
 <p>
   
 ![equation](https://latex.codecogs.com/svg.image?\textbf{Theory&space;Part}&space;)
